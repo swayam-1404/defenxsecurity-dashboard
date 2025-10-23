@@ -18,6 +18,7 @@ import NetMon from "./components/netmon/networkmonitoring";
 import ThreatAlerts from "./components/alerts/alerts";
 import LogPage from "./components/logs/logs";
 import Report from "./components/reports/report";
+import AwarenessPage from "./components/awareness/awareness";
 ChartJS.register(
   LineElement,
   ArcElement,
@@ -512,6 +513,7 @@ export default function App() {
         <Route path="/alerts" element={<ThreatAlerts />} />
         <Route path="/logs" element={<LogPage />} />
         <Route path="/reports" element={<Report />} />
+        <Route path="/Awareness" element={<AwarenessPage />} />
       </Routes>
     </div>
   );

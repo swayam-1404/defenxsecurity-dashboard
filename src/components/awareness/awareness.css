@@ -1,0 +1,146 @@
+/* Color Palette: Dark Blue Theme */
+:root {
+    --primary-color: #004d99; /* Dark Blue */
+    --secondary-color: #002d5c; /* Very Dark Blue for Background */
+    --accent-color: #083566; /* Gold/Yellow for Highlights */
+    --text-color: #e6f0ff; /* Light Blue/Off-White Text */
+    --card-bg: #003a73; /* Slightly lighter card background */
+    --border-color: #0066cc; /* Medium Blue for borders */
+}
+
+/* Base Styles */
+.awareness-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+    margin-left: 220px; 
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid var(--accent-color);
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: var(--accent-color);
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Threats Section Styling */
+.threats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.threat-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.threat-title {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 15px;
+    margin: 0;
+    font-size: 1.25em;
+    user-select: none;
+    border-bottom: 2px solid var(--accent-color);
+    transition: background-color 0.3s;
+    cursor: pointer; /* Indicate it's clickable */
+}
+
+.threat-title:hover {
+    background-color: #005aa3; /* Slightly lighter on hover */
+}
+
+.threat-content {
+    padding: 0 15px;
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.threat-content.active {
+    max-height: 700px; /* Increased to accommodate the extra content */
+    padding: 15px;
+}
+
+.threat-content h4 {
+    color: var(--accent-color);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 10px;
+}
+
+.threat-content p strong {
+    color: #ffdda0; /* Slightly different shade for emphasis */
+}
+
+.threat-content ul {
+    list-style-type: '👉 ';
+    padding-left: 20px;
+}
+
+.threat-content li {
+    margin-bottom: 8px;
+}
+
+/* Habits Section Styling */
+.habits-section {
+    background-color: var(--primary-color);
+    border: 2px dashed var(--accent-color);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 40px;
+}
+
+.habits-section h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.habits-list p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.habits-list p strong {
+    color: var(--accent-color);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-top: 3px solid var(--accent-color);
+}
