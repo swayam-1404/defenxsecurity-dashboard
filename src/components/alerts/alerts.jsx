@@ -4,7 +4,7 @@ import "./alerts.css";
 // Fetch latest alerts from provided API
 const fetchThreats = async () => {
   try {
-    const res = await fetch("http://3.120.210.220:8000/api/alerts/latest?limit=10", {
+    const res = await fetch("http://3.69.167.136:8000/api/alerts/latest?limit=10", {
       headers: { accept: "application/json" },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);

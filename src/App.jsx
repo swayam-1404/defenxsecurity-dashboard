@@ -58,16 +58,16 @@ export default function App() {
   });
 
   // API endpoints (from prompt)
-  const ALERTS_API = "http://3.120.210.220:8000/api/alerts/latest?limit=10";
-  const LOGS_API = "http://3.120.210.220:8000/api/logs/recent?limit=50";
-  const INCIDENTS_API = "http://3.120.210.220:8000/api/incidents/all";
-  const SCAN_API = "http://3.120.210.220:8000/api/monitor/scan";
+  const ALERTS_API = "http://3.69.167.136:8000/api/alerts/latest?limit=10";
+  const LOGS_API = "http://3.69.167.136:8000/api/logs/recent?limit=50";
+  const INCIDENTS_API = "http://3.69.167.136:8000/api/incidents/all";
+  const SCAN_API = "http://3.69.167.136:8000/api/monitor/scan";
 
   // top-talkers endpoint (added)
-  const TOP_TALKERS_API = "http://3.120.210.220:8000/api/network/top-talkers";
+  const TOP_TALKERS_API = "http://3.69.167.136:8000/api/network/top-talkers";
 
   // metrics endpoint (new)
-  const METRICS_API = "http://3.120.210.220:8000/api/network/metrics";
+  const METRICS_API = "http://3.69.167.136:8000/api/network/metrics";
 
   async function fetchAlerts() {
     try {

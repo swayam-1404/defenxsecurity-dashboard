@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./logs.css";
 
-const API_URL = "http://3.120.210.220:8000/api/logs/recent?limit=50";
+const API_URL = "http://3.69.167.136:8000/api/logs/recent?limit=50";
 
 const escapeCsv = (value) => {
   if (value == null) return "";

@@ -3,7 +3,7 @@ import { Line } from "react-chartjs-2";
 import "chart.js/auto";
 import "./networkmonitoring.css"; // Import CSS file
 
-const API_URL = "http://3.120.210.220:8000/api/network/metrics";
+const API_URL = "http://3.69.167.136:8000/api/network/metrics";
 
 const NetMon = () => {
   const [logs, setLogs] = useState([]);
