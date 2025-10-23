@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import "./app.css";
+import "./App.css";
 import logo from "./assets/DxS.jpg";
 import { Line } from "react-chartjs-2";
 import { Link, Routes, Route } from "react-router-dom";
