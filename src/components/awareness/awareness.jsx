@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AwarenessPage.css'; // Assume CSS file remains the same
+import './awareness.css';
 
 // Enhanced Data for the threats
 const cyberThreats = [
