@@ -135,7 +135,7 @@ const AwarenessPage = () => {
             </main>
 
             <footer>
-                <p>&copy; 2025 Cyber Security Awareness Initiative</p>
+                <p>&copy; Defenx Status: Online | Version: 1.0.0 | © 2025 Company</p>
             </footer>
         </div>
     );

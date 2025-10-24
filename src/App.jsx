@@ -484,7 +484,7 @@ export default function App() {
         </section>
 
         <footer className="footer">
-          System Status: Online | Version: 1.0.0 | © 2025 Company
+          Defenx Status: Online | Version: 1.0.0 | © 2025 Company
         </footer>
       </main>
     );

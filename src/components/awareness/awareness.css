@@ -1,11 +1,11 @@
 /* Color Palette: Dark Blue Theme */
 :root {
-    --primary-color: #004d99; /* Dark Blue */
-    --secondary-color: #002d5c; /* Very Dark Blue for Background */
-    --accent-color: #ffffff; /* Gold/Yellow for Highlights */
-    --text-color: #e6f0ff; /* Light Blue/Off-White Text */
-    --card-bg: #003a73; /* Slightly lighter card background */
-    --border-color: #0066cc; /* Medium Blue for borders */
+    --primary-color: #1e293b;
+    --secondary-color: #002d5c; 
+    --accent-color: #ffffff; 
+    --text-color: #e6f0ff; 
+    --card-bg:#1e293b;
+    --border-color: #002d5c 
 }
 
 /* Base Styles */
@@ -73,7 +73,7 @@ h2 {
 }
 
 .threat-title:hover {
-    background-color: #005aa3; /* Slightly lighter on hover */
+    background-color: #03345d; /* Slightly lighter on hover */
 }
 
 .threat-content {

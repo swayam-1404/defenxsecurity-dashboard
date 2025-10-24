@@ -247,7 +247,7 @@ body, html {
 
 .alerts-section-new {
   flex: 1.05;
-  background: linear-gradient(125deg, #211d46 80%, #2b2459 100%);
+  background: #1e293b;
   border-radius: 18px;
   box-shadow: 0 2px 18px 0 #121d3269;
   padding: 28px 16px 30px 16px;
@@ -265,7 +265,7 @@ body, html {
 }
 
 .alert-card-new {
-  background: #332e60;
+  background: #374c6e;
   border-radius: 9px;
   padding: 18px 12px;
   margin-bottom: 10px;
